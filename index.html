@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8" lang="en">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Wallpaper It | Wallpaper for every style and budget</title>
+
+    <link rel="icon" type="image/x-icon" href="img/icon.webp">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+
+    <link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900italic,900'>
+    <link rel="stylesheet" href="https://fonts.cdnfonts.com/css/avenir">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+
+<body>
+    <script src="script.js"></script>
+
+    <div id="green-header" class="green-header">
+        <a href="">NEW YEAR SALE! 20% OFF SELECTED WALLPAPERS</a>
+        <span class="close" onclick="hideBanner()">&times;</span>
+    </div>
+
+    <div class="header">
+        <img src="img/wallpaperit-Logo.png" class="header-logo" alt="Wallpaperit Logo">
+        <input type="search" class="header-search" placeholder="Search for products...">
+        <div class="header-icons">
+            <a href="">
+                <img src="img/sign in.png" alt="Sign in">Sign in</a>
+            <a href="">
+                <img src="img/wishlist.png" alt="Wishlist">Wishlist</a>
+            <a href="">
+                <img src="img/bag.png" alt="Bag">Bag</a>
+        </div>
+    </div>
+
+    <div class="navigation-menu-all">
+        <nav class="navigation">
+            <ul class="menu-categories">
+                <li>
+                    <a class="menu-category" onmouseover="manageWallpaperMenu()" >WALLPAPER <i class="arrow-down"></i></a>
+                </li>
+                <li>
+                    <a class="menu-category" onmouseover="managePaintMenu()">PAINT <i class="arrow-down"></i> </a>
+                </li>
+                <li>
+                    <a class="menu-category">BRANDS <i class="arrow-down"></i></a>
+                </li>
+                <li>
+                    <a class="menu-category">WALL MURALS</a>
+                </li>
+                <li>
+                    <a class="menu-category">WALL ART <i class="arrow-down"></i></a>
+                </li>
+                <li>
+                    <a class="menu-category">SALE</a>
+                </li>
+            </ul>
+        </nav>
+        <div id="wallpaper-menu" class="wallpaper-menu">
+            <ul>
+                <li class="menu-option">A</li>
+                <li class="menu-option">B</li>
+                <li class="menu-option">C</li>
+            </ul>
+        </div>
+        <div id="paint-menu" class="paint-menu">
+            <ul>
+                <li class="menu-option">1</li>
+                <li class="menu-option">2</li>
+                <li class="menu-option">3</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="services">
+        <div class="text">
+            <a href="">Free Delivery 
+                <span>On All Orders Over £50</span>
+            </a>
+        </div>
+        <div class="text">
+            <a href="">Customers Rate Us 4.7 / 5</a>
+        </div>
+        <div class="text">
+            <a href="">Order By 8pm 
+                <span>For Next Day Delivery</span>
+            </a>
+        </div>
+    </div>
+    
+    <div class="envy">
+        <img class="envy-side" src="img/envy-homepage-banner-left-image.jpg" alt="wallpaper background">
+        <div class="envy-center">
+            <img class="envy-img" src="img/envy-homepage-banner-sinful-style.svg" alt="wallpaper design">
+            <a class="envy-button" href="">SHOP WALLPAPER</a>
+            <img class="envy-img" src="img/envy-homepage-banner-logo.svg" alt="brand logo">
+        </div>
+        <img class="envy-side" src="img/envy-homepage-banner-right-image.jpg" alt="wallpaper background">
+    </div>
+    <div class="our-brands">
+        <h2 class="our-brands-text">Our <span>Brands</span></h2>
+        <div>
+          <section class="customer-logos slider" adata-arrows="true">
+            <div class="slide">
+              <img src="img/la-logo.png" />
+            </div>
+            <div class="slide">
+              <img src="img/next-logo.png" />
+            </div>
+            <div class="slide">
+              <img src="img/joules-logo.png" />
+            </div>
+            <div class="slide">
+              <img src="img/sfe-logo.png" />
+            </div>
+            <div class="slide">
+              <img src="img/sfep-logo.png" />
+            </div>
+            <div class="slide">
+              <img src="img/contour-logo.webp" />
+            </div>
+            <div class="slide">
+              <img src="img/boutique-logo.png" />
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+    
+    <div class="welcome">
+        <span class="welcome-text">Welcome to Wallpaper<span>it</span></span>
+    </div>  
+</body>
